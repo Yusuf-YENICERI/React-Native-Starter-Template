@@ -5,12 +5,11 @@ import {
     View,
     Text
 } from "react-native";
+import Header from '../components/Header';
 
 const Settings = () => {
     return (
-        <View>
-            <Text>Settings</Text>
-        </View>
+        <Header text="Header" />
     )
 }
 
