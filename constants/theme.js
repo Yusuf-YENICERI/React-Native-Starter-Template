@@ -11,7 +11,9 @@ export const COLORS = {
     //colorlar
     black: "#1e1f20",
     white: "#ffffff",
-    
+    darkYellow: "#e6ac00",
+    lightOrange: "#ffa238",
+
     lightGray: "#f5f5f6",
     lightGray2: "f6f6f7",
     lightGray3: "#efeff1",
