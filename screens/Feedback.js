@@ -6,11 +6,11 @@ import {
     Text
 } from "react-native";
 
+import Header from '../components/Header';
+
 const Feedback = () => {
     return (
-        <View>
-            <Text>Feedback</Text>
-        </View>
+        <Header text="Header" />
     )
 }
 

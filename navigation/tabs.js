@@ -9,8 +9,11 @@ import {
 } from 'react-native';
 import {
     createBottomTabNavigator, 
-    BottomTobBar
+    BottomTabBar
 } from '@react-navigation/bottom-tabs';
+import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
+
+
 import Svg, {Path} from 'react-native-svg'
 
 import {Home, Feedback, Settings} from '../screens';
@@ -103,7 +106,8 @@ const Tabs = () => {
                     borderTopWidth: 0,
                     backgroundColor: "transparent",
                     elevation: 0
-                }
+                },
+                
             }
         }
         screenOptions={{
@@ -127,14 +131,15 @@ const Tabs = () => {
                     ),
                     tabBarButton: (props) => {
                         return <TabBarCustomButton {...props}></TabBarCustomButton>
-                    }
+                    },
+                    
                 }
             }
             >
 
             </Tab.Screen>
             <Tab.Screen
-            name="Ayarlar"
+            name="Settings"
             component={Settings}
             options={
                 {
@@ -158,7 +163,7 @@ const Tabs = () => {
             }
             ></Tab.Screen>
             <Tab.Screen
-            name="Geri Bildirim"
+            name="Feedback"
             component={Feedback}
             options={
                 {
