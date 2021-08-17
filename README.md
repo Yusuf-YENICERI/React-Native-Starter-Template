@@ -1,14 +1,17 @@
 # React-Native-Starter-Template
 Simple but strongly structured react native starter template
 
+
 ## 🚀 Why should i use this?
 
 It helps you to easily start your project. You don't have to make folders from scratch to keep your project in a structured manner.
 It has a good structure to let you focus on coding.
 
+
 ## :exclamation: Requirements
 
 Yarn, expo and npm should be installed on machine.
+
 
 ## :video_game: Usage
 
@@ -26,6 +29,8 @@ cd React-Native-Starter-Template
 ```bash
 yarn install && yarn start
 ```
+
+
 ## ⚙ Project Structure
 
 📁 assets -> It has icons, images and fonts.
@@ -39,6 +44,12 @@ yarn install && yarn start
 📁 navigation -> This folder includes the tabs inside the app. Each tab make use of a screen. So that folder make use of ```📁 screens``` folder.
 
 🗄 App.js -> It includes the whole tabs app has.
+
+## ❓ What should be add to template?
+
+Well, animation while switching between tabs should be add. One can use ```materialBottomTabNavigator``` with just changing the line 24 in ```navigation\tabs.js``` and can have the animation effect, yet there isn't any animation for default case.
+
+## 📷 Screenshots
 
 ## References
 
