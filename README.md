@@ -52,7 +52,11 @@ Well, animation while switching between tabs should be add. One can use ```mater
 ## 📷 Screenshots
 
 ![1](https://user-images.githubusercontent.com/38917909/129787539-04e0e979-bf2f-4288-95dc-09de113956de.png)
+
+
 ![2](https://user-images.githubusercontent.com/38917909/129787544-45000a8b-d35e-467e-8fb7-487229d644a2.png)
+
+
 ![3](https://user-images.githubusercontent.com/38917909/129787547-f812f485-3a7d-4190-a88b-d80b7c37c8a0.png)
 
 
