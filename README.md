@@ -35,13 +35,15 @@ yarn install && yarn start
 
 📁 assets -> It has icons, images and fonts.
 
-📁 constants -> It access to icons, images and fonts with javascript. Also theme variables, COLORS, SIZES, FONTS included. You can use them with importing the constants folder.
+📁 constants -> It access to icons, images, fonts and redux action types with javascript. Also theme variables, COLORS, SIZES, FONTS included. You can use them with importing the constants folder.
 
 📁 components -> It has components defined by user. Each component has an index file and has specific components for that component leverages ```styled-components```.
 
 📁 screens -> It has screens used in app. Screens make use of ```📁 components``` folder.
 
 📁 navigation -> This folder includes the tabs inside the app. Each tab make use of a screen. So that folder make use of ```📁 screens``` folder.
+
+📁 redux -> Yes, you can use redux with this template with changing the branch to ```reduxed-version```. It has ```📁 actions``` folder to have actions, ```📁 reducers``` folders to have reducers, ```📁 store``` to get your store and a ```🗄 state``` file to change initial state of the app.
 
 🗄 App.js -> It includes the whole tabs app has.
 
