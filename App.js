@@ -5,12 +5,16 @@ import Tabs from './navigation/tabs';
 
 import {Home, Settings, Feedback} from './screens';
 
+import { Provider } from "react-redux";
+import configureStore from './redux/store';
 
+const store = configureStore();
 
 const Stack = createStackNavigator();
 
 const App = () => {
   return (
+    <Provider store={store} >
       <NavigationContainer>
         <Stack.Navigator
         screenOptions={{
@@ -23,6 +27,7 @@ const App = () => {
 
         </Stack.Navigator>
       </NavigationContainer>
+      </Provider>
   )
 }
 
