@@ -60,6 +60,13 @@ Well, animation while switching between tabs should be add. One can use ```mater
 ![3](https://user-images.githubusercontent.com/38917909/129787547-f812f485-3a7d-4190-a88b-d80b7c37c8a0.png)
 
 
+## 🗞 News
+
+![github](https://user-images.githubusercontent.com/38917909/132759435-29db8189-e5c2-4a9d-a8b3-37eaf4ed1e4a.png)
+
+Now, you might want to use redux in your new projects.
+Change the branch to ```reduxed-version``` to start it now!
+
 ## References
 
 I have used this resource while making that project.
